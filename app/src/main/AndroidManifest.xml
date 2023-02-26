@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.digipod.clini">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/m_fine_logo_2"
+        android:label="CliniNet"
+        android:roundIcon="@drawable/m_fine_logo_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MFineApplication">
+        <activity android:name=".HelpAndSupport" />
+        <activity android:name=".OrderMedicineActivity" />
+        <activity android:name=".EditProfile" />
+
+        <activity
+            android:name=".AppointmentConfirmationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PatientRegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SymptomDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="true" />
+
+        <activity
+            android:name=".ExploreMoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConsultNow"
+            android:exported="true" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity android:name=".WalletActivity" />
+        <activity
+            android:name=".Supporter"
+            android:exported="true" />
+
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
